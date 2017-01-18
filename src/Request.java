@@ -6,4 +6,12 @@ public class Request {
 		this.requestType = requestType;
 		this.requestPayload = requestPayload;
 	}
+
+	public getRequestType() {
+		return requestType;
+	}
+
+	public getRequestPayload() {
+		return requestPayload;
+	}
 }

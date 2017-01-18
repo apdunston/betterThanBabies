@@ -1,4 +1,4 @@
-public class OurStuffFlatFile implements OurStuffInterface {
+public class OurStuffFlatFile implements IOurStuff {
   public void OurStuffFlatFile(String filename) {
     // Find or create file
   }

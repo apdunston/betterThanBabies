@@ -7,11 +7,11 @@ public class Response {
 		this.responsePayload = responsePayload;
 	}
 
-	public getResponseType() {
+	public int getResponseType() {
 		return responseType;
 	}
 
-	public getResponsePayload() {
+	public PayloadInterface getResponsePayload() {
 		return responsePayload;
 	}
 }

@@ -7,11 +7,11 @@ public class Request {
 		this.requestPayload = requestPayload;
 	}
 
-	public getRequestType() {
+	public int getRequestType() {
 		return requestType;
 	}
 
-	public getRequestPayload() {
+	public PayloadInterface getRequestPayload() {
 		return requestPayload;
 	}
 }

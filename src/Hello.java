@@ -4,8 +4,16 @@ public class Hello {
 
     MessageHandler handler = new MessageHandler();
     Request request = handler.getRequest();
-    //...
+
+    Response response = processRequest(request);
 
     handler.sendResponse(response);
+  }
+
+  public Response processRequest(Request request) {
+  	
+
+
+  	return null;
   }
 }

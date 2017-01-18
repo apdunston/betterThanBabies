@@ -8,7 +8,7 @@ public class User {
   private String checking;
 
 
-  public void User(OurStuffInterface ourStuff, String username, String password, String email, String age, String address, String bank_number, String checking) {
+  public void User(String username, String password, String email, String age, String address, String bank_number, String checking) {
     this.username = username;
     this.password = password;
     this.email = email;
@@ -26,8 +26,13 @@ public class User {
     return (this.password == password);
   }
 
-  public void persist() {
-    // ... Save through the OurStuffInterface
+  public String serialize() {
+    // write all stuff to string
+  }
+
+  public static void deserialize(String stuff) {
+    // pull values from string
+    // return new User(...);
   }
 
 }

@@ -1,14 +1,16 @@
 public class OurStuffFlatFile implements IOurStuff {
+  private Map<String, User> users;
+
   public void OurStuffFlatFile(String filename) {
     // Find or create file
+    // Load all the users into a map of users
   }
 
-  public Boolean isLogin(String username, String password) {
-    // Read file
-    // Create user objects
+  public void persistUser(User user) {
+    // Write the file
   }
 
-  public void persistString(String output) {
-    // Save the user to the datastore
+  public User getUser(String username) {
+    users.get(username);
   }
 }

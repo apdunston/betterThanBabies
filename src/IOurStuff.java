@@ -1,4 +1,4 @@
 public interface IOurStuff {
-  public abstract void persistUser(User user);
-  public abstract Boolean isLogin(String username, String password);
+  public void persistUser(User user);
+  public User getUser(String username);
 }

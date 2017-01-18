@@ -1,4 +1,4 @@
 public interface MessageHandlerInterface {
-  public abstract RequestInterface acceptRequest();
-  public abstract void sendResponse(ResponseInterface response);
+  public RequestInterface acceptRequest();
+  public void sendResponse(ResponseInterface response);
 }

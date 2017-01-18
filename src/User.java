@@ -22,15 +22,15 @@ public class User {
     return this.username;
   }
 
-  public Boolean isPassword(String password) {
-    return (this.password == password);
+  public String password() {
+    return this.password;
   }
 
   public String serialize() {
     // write all stuff to string
   }
 
-  public static void deserialize(String stuff) {
+  public static User deserialize(String stuff) {
     // pull values from string
     // return new User(...);
   }

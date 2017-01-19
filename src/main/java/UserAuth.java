@@ -1,7 +1,7 @@
 public class UserAuth extends AUserAuth {
-  private OurStuffInterface ourStuff;
+  private IOurStuff ourStuff;
 
-  public UserAuth(OurStuffInterface ourStuff) {
+  public UserAuth(IOurStuff ourStuff) {
     this.ourStuff = ourStuff;
   }
 

@@ -4,6 +4,6 @@ public interface IUser {
   public String username();
   public String password();
   public String serialize();
-  public static User deserialize(String stuff);
+//  public static User deserialize(String stuff);
 
 }

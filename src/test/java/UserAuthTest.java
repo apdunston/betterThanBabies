@@ -4,40 +4,35 @@ import org.junit.*;
 
 public class UserAuthTest {
 
-    private ArrayList<String> testList;
+//    @BeforeClass
+//    public static void onceExecutedBeforeAll() {
+//        System.out.println("@BeforeClass: onceExecutedBeforeAll");
+//    }
+//
+//    @Before
+//    public void executedBeforeEach() {
+//        testList = new ArrayList<String>();
+//        System.out.println("@Before: executedBeforeEach");
+//    }
+//
+//    @AfterClass
+//    public static void onceExecutedAfterAll() {
+//        System.out.println("@AfterClass: onceExecutedAfterAll");
+//    }
+//
+//    @After
+//    public void executedAfterEach() {
+//        testList.clear();
+//        System.out.println("@After: executedAfterEach");
+//    }
 
-    @BeforeClass
-    public static void onceExecutedBeforeAll() {
-        System.out.println("@BeforeClass: onceExecutedBeforeAll");
-    }
-
-    @Before
-    public void executedBeforeEach() {
-        testList = new ArrayList<String>();
-        System.out.println("@Before: executedBeforeEach");
-    }
-
-    @AfterClass
-    public static void onceExecutedAfterAll() {
-        System.out.println("@AfterClass: onceExecutedAfterAll");
-    }
-
-    @After
-    public void executedAfterEach() {
-        testList.clear();
-        System.out.println("@After: executedAfterEach");
+    @Test
+    public void myFunTest() {
+        assertTrue(true);
     }
 
     @Test
-    public void EmptyCollection() {
-        assertTrue(testList.isEmpty());
-        System.out.println("@Test: EmptyArrayList");
-    }
-
-    @Test
-    public void OneItemCollection() {
-        testList.add("oneItem");
-        assertEquals(1, testList.size());
-        System.out.println("@Test: OneItemArrayList");
+    public void myNotFunTest() {
+        assertTrue(false);
     }
 }
